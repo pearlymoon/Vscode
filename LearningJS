@@ -1,0 +1,9 @@
+// object
+
+let person = {
+    
+    name: 'Bot',
+    age: 0
+};
+
+console.log(person);

@@ -1,0 +1,19 @@
+// This script requires Node Version 12.19.0
+// Created by Lucas C. Daouda
+
+console.log('Hello Node.js')
+const moneyRate = 2;
+let currentMoney = 0;
+let days = 365;
+
+currentMoney = days * moneyRate + currentMoney;
+console.log('-------');
+console.log(currentMoney);
+console.log('-------');
+console.log('Statistics:');
+console.log('Days:' + days);
+console.log('Money Rate:' + moneyRate);
+console.log('-------');
+
+//Remember To save when making changes!
+
